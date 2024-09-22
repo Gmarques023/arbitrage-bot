@@ -1,13 +1,27 @@
-# Sample Hardhat Project
+# Arbitrage Bot with Flash Loans on Polygon
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## Overview
 
-Try running some of the following tasks:
+This project is a smart contract-based arbitrage bot that utilizes flash loans to exploit price discrepancies between decentralized exchanges (DEXs) on the Polygon network. The bot executes trades using Aave's flash loan functionality, allowing for capital-efficient arbitrage opportunities.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## Features
+
+- **Flash Loans**: Borrow assets without collateral for a single transaction.
+- **Arbitrage Execution**: Automatically detect and execute arbitrage opportunities between DEXs.
+- **Built on Polygon**: Optimized for low transaction fees and fast execution.
+
+## Requirements
+
+- Node.js
+- npm
+- Hardhat
+- A wallet with access to the Polygon network and some MATIC for gas fees
+
+## Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/arbitrage-bot.git
+   cd arbitrage-bot
+   ```
