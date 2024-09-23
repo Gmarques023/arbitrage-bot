@@ -8,7 +8,7 @@ const web3 = new Web3(new Web3.providers.HttpProvider(INFURA_RPC_URL)); // Usand
 
 // Endereços dos contratos de DEX
 const UNISWAP_ROUTER_ADDRESS = "0xedf6066a2b290C185783862C7F4776A2C8077AD1"; // Endereço do Uniswap V2 Router
-const SUSHISWAP_ROUTER_ADDRESS = "0xd9e1cE17f2641f24aE83637ab66A2c1D50D92E88"; // Endereço do Sushiswap Router
+const SUSHISWAP_ROUTER_ADDRESS = "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"; // Endereço do Sushiswap Router
 
 // ABI mínimo para obter preços
 const ROUTER_ABI = [
