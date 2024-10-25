@@ -1,3 +1,40 @@
+//Uniswap
+//Sushiswap
+//QuickSwap
+//Balancer
+//Bancor
+//dydx
+//1inch
+//raydium
+//pancakeswap
+
+//BNB
+//USDC
+//WSTETH
+//WBTC
+//WETH
+//LINK
+//UNI
+//DAI
+//POL
+//AAVE
+//RENDER
+//INJ
+//BONK
+//The Graph
+//GRT
+//RETH
+//MANTRA
+//OM
+//LDO
+//MKR
+//MATIC
+//APE
+//AXL
+//FRAX
+//SAND
+//MANA
+
 const tokens = [
   { name: "DAI", address: "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063" },
   { name: "WMATIC", address: "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270" },
